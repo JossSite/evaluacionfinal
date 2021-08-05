@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<style>
+		.bd-placeholder-img {
+			font-size: 1.125rem;
+			text-anchor: middle;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			user-select: none;
+		}
+
+		@media (min-width: 768px) {
+			.bd-placeholder-img-lg {
+			font-size: 3.5rem;
+			}
+		}
+	</style>
+
+	<!-- Custom styles for this template -->
+	<link href="menu_nav/sidebars.css" rel="stylesheet">
+	
+</head>
+<body>
+<div class="container">
+	<header class="row bg-secondary">
+
+		<img src="img/header.jpg" class="img-fluid" alt="...">
+	</header>
+
+	<nav class="row bg-warning">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+			  <a class="navbar-brand" href="#">Repair Center</a>
+			  <button
+				class="navbar-toggler"
+				type="button"
+				data-bs-toggle="collapse"
+				data-bs-target="#navbarNavDarkDropdown"
+				aria-controls="navbarNavDarkDropdown"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			  >
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+				<ul class="navbar-nav">
+				  <li class="nav-item dropdown">
+					<a
+					  class="nav-link dropdown-toggle"
+					  href="#"
+					  id="navbarDarkDropdownMenuLink"
+					  role="button"
+					  data-bs-toggle="dropdown"
+					  aria-expanded="false"
+					>
+					  Servicios
+					</a>
+					<ul
+					  class="dropdown-menu dropdown-menu-dark"
+					  aria-labelledby="navbarDarkDropdownMenuLink"
+					>
+					  <li><a class="dropdown-item" href="#">Consultas</a></li>
+					  <li>
+						<a class="dropdown-item" href="#">Contacto</a>
+					  </li>
+					  <li>
+						<a class="dropdown-item" href="#">Ubicacion</a>
+					  </li>
+					</ul>
+				  </li>
+				  <li class="nav-item dropdown">
+					<a
+					  class="nav-link dropdown-toggle"
+					  href="#"
+					  id="navbarDarkDropdownMenuLink"
+					  role="button"
+					  data-bs-toggle="dropdown"
+					  aria-expanded="false"
+					>
+					  Nosotros
+					</a>
+					<ul
+					  class="dropdown-menu dropdown-menu-dark"
+					  aria-labelledby="navbarDarkDropdownMenuLink"
+					>
+					  <li><a class="dropdown-item" href="#">Historia</a></li>
+					  <li>
+						<a class="dropdown-item" href="#">Certificados</a>
+					  </li>
+					  <li>
+						<a class="dropdown-item" href="#">Referencias</a>
+					  </li>
+					</ul>
+				  </li>
+				</ul>
+			  </div>
+			</div>
+		  </nav>
+	</nav>
+
+	<section class="row bg-primary"> 
+		<article class="col-md-6 bg-warning"> 
+			Galeria de fotos
+				<div
+				  id="carouselExampleIndicators"
+				  class="carousel slide"
+				  data-bs-ride="carousel"
+				>
+				  <div class="carousel-indicators">
+					<button
+					  type="button"
+					  data-bs-target="#carouselExampleIndicators"
+					  data-bs-slide-to="0"
+					  class="active"
+					  aria-current="true"
+					  aria-label="Slide 1"
+					></button>
+					<button
+					  type="button"
+					  data-bs-target="#carouselExampleIndicators"
+					  data-bs-slide-to="1"
+					  aria-label="Slide 2"
+					></button>
+					<button
+					  type="button"
+					  data-bs-target="#carouselExampleIndicators"
+					  data-bs-slide-to="2"
+					  aria-label="Slide 3"
+					></button>
+				  </div>
+				  <div class="carousel-inner" style="">
+					<div class="carousel-item active">
+					  <img src="img/galeria1.jpg" class="d-block w-100" alt="..." />
+					</div>
+					<div class="carousel-item">
+					  <img src="img/galeria2.jpg" class="d-block w-100" alt="..." />
+					</div>
+					<div class="carousel-item">
+					  <img src="img/galeria3.jpg" class="d-block w-100" alt="..." />
+					</div>
+				  </div>
+				  <button
+					class="carousel-control-prev"
+					type="button"
+					data-bs-target="#carouselExampleIndicators"
+					data-bs-slide="prev"
+				  >
+					<span
+					  class="carousel-control-prev-icon"
+					  aria-hidden="true"
+					></span>
+					<span class="visually-hidden">Previous</span>
+				  </button>
+				  <button
+					class="carousel-control-next"
+					type="button"
+					data-bs-target="#carouselExampleIndicators"
+					data-bs-slide="next"
+				  >
+					<span
+					  class="carousel-control-next-icon"
+					  aria-hidden="true"
+					></span>
+					<span class="visually-hidden">Next</span>
+				  </button>
+				</div>
+				<p>Nosotros nos dedicamos a reparar todo tipo de equipos tecnológicos, con un servicio garantizado, con un historial y con un personal altamente calificado para cualquier circunstancia, primeros en la ciudad de Arequipa.</p>
+		</article>
+		
+		<article class="col-md-4 bg-secondary">
+			Botón y ventana flotante
+
+				<br>
+				<br>
+
+							<!-- Button trigger modal -->
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+					Abrir info
+				</button>
+				
+				<!-- Modal -->
+				<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Video</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<iframe width="460" height="215" src="https://www.youtube.com/embed/RUKD8UEB2pk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+						<button type="button" class="btn btn-primary">Guardar video</button>
+						</div>
+					</div>
+					</div>
+				</div>
+			<br>
+			<br>
+			<p>Video instructivo para ver como trabajamos en nuestras instalaciones</p>
+		</article>
+
+		<aside class="col-md-2 bg-primary">
+			Tarjeta (Card)
+			<div class="card" style="width: 12rem;">
+				<img src="/img/colibri.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+				  <h5 class="card-title">Card - Tarjet</h5>
+				  <p class="card-text">Nuestro persona es de la mejor calidad, capacitados en cualquier tipo de labor, trabajo remoto y  forma presencial.</p>
+				  <a href="#" class="btn btn-primary">Veamos</a>
+				</div>
+			  </div>
+		</aside>
+	</section>
+
+	<footer class="row bg-dark text-light">
+		Maps
+		<br>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1081.8917475595747!2d-71.52126581368744!3d-16.38991446751349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424bb2433777ed%3A0x975ab7a5dadca930!2sMisti%201001%2C%20Arequipa%2004004!5e0!3m2!1ses-419!2spe!4v1628133282297!5m2!1ses-419!2spe" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
